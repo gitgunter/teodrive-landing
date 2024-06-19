@@ -42,7 +42,6 @@ function Landing () {
           description='Evalúa tus conocimientos con exámenes diseñados para medir y fortalecer tu comprensión.'
         />
         <DashboardMockup url='examenes'>
-          children
         </DashboardMockup>
       </SectionLayout>
       <SectionLayout>
