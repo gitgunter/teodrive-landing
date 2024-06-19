@@ -1,0 +1,49 @@
+[
+  {
+    "mostPopular": false,
+    "variant_id": "0",
+    "plan_id": "free",
+    "plan_name": "Gratis",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, fugit.",
+    "price": 0,
+    "paymentInterval": "7 días",
+    "features": [
+      "Acceso a tus estadísticas",
+      "Temario completo",
+      "Límite de 10 exámenes"
+    ]
+  },
+  {
+    "mostPopular": true,
+    "variant_id": "331869",
+    "plan_id": "premium",
+    "plan_name": "Premium",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, fugit.",
+    "price": 5500,
+    "paymentInterval": "mes",
+    "features": [
+      "Acceso a tus estadísticas",
+      "Temario completo",
+      "Descargar temario en PDF",
+      "Exámenes ilimitados",
+      "Personalización de exámenes",
+      "Modalidades de estudio",
+      "Soporte prioritario"
+    ]
+  },
+  {
+    "mostPopular": false,
+    "variant_id": "357226",
+    "plan_id": "basic",
+    "plan_name": "Básico",
+    "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, fugit.",
+    "price": 3000,
+    "paymentInterval": "mes",
+    "features": [
+      "Acceso a tus estadísticas",
+      "Temario completo",
+      "Descargar temario en PDF",
+      "Exámenes ilimitados"
+    ]
+  }
+]

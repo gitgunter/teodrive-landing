@@ -1,0 +1,46 @@
+.pageNavigationBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  letter-spacing: -0.063rem;
+}
+
+.number {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: -0.047rem;
+}
+
+.caption {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+.actions {
+  display: inline-flex;
+}
+
+.titleAndCaption {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}

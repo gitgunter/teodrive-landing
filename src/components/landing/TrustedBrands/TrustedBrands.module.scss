@@ -1,0 +1,31 @@
+.TrustedBrands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+  padding: 100px 0;
+
+  .caption {
+    color: #9b9b9b;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.brandWrapper {
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  width: 1000px;
+}
+
+.brandLogo {
+  opacity: .65;
+  filter: grayscale(100%);
+  // aspect-ratio: 3/2;
+  object-fit: contain;
+  height: 2.5rem;
+}

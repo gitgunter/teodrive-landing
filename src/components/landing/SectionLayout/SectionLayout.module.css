@@ -1,0 +1,7 @@
+.SectionLayout {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 160px 0;
+  width: 1200px;
+}

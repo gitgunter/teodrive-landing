@@ -1,0 +1,78 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.heroHeadingWrapper {
+  position: relative;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 5.5rem;
+  letter-spacing: -0.125rem;
+
+  .heading {
+    background: linear-gradient(180deg, hsl(209, 74%,88%), #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+  }
+  
+  // .heroHighlighted {
+  //   align-items: flex-start;
+  //   background: linear-gradient(92deg, #0088ff -9.21%, #00ccff 104.14%);
+  //   background-clip: text;
+  //   // text-shadow: 0 2px 2px #0088ff26;
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: #0000;
+  //   text-shadow: 0 2px 2px #0088ff26, 0 0 2rem hwb(192 36% 0% / 0.3);
+  // }
+}
+
+.heroParagraph {
+  color: #9b9b9b;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: -0.016rem;
+}
+
+.HeroHighlighted {
+  position: relative;
+  
+  .textBackground, .textGradient {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 5.5rem;
+    letter-spacing: -0.125rem;
+  }
+
+  .textBackground {
+    // position: relative;
+    color: #97eaff;
+    top: -1px;
+  }
+
+  .textGradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: flex-start;
+    background: linear-gradient(92deg, #0088ff -9.21%, #00ccff 104.14%);
+    background-clip: text;
+    // text-shadow: 0 2px 2px #0088ff26;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    text-shadow: 0 2px 2px #0088ff26, 0 0 2rem hwb(192 36% 0% / 0.3);
+  }
+}
+
+.teodriveVersion {
+  color: #999;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: .01563rem;
+  margin: 0 auto;
+}

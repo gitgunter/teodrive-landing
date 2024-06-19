@@ -1,0 +1,57 @@
+// .Header {
+//   isolation: isolate;
+//   overflow: hidden;
+//   position: fixed;
+//   top: 1rem;
+//   inset-inline: 0;
+//   margin-inline: auto;
+//   z-index: 100;
+//   // transform: translateX(calc(-1* var(--removed-body-scroll-bar-size, 0px) / 2));
+//   height: calc(64px - 1rem);
+//   transition: 0.24s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+//   transition-property: height, background;
+//   backdrop-filter: blur(24px) saturate(140%);
+//   box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
+//   border-radius: 1rem;
+//   padding: 0 12px;
+//   background: hsla(0, 0%, 4%, 0.2);
+// }
+
+.Header {
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  background: hsla(0, 0%, 3%, 0.2);
+  backdrop-filter: blur(24px) saturate(140%);
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
+  border-radius: 1rem;
+  top: 1rem;
+  padding: 0.5rem 0.75rem;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.NavItem {
+  display: flex;
+  align-items: center;
+  color: #d6d6d6;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding: 0 0.75rem;
+  height: 2rem;
+  transition: color .24s cubic-bezier(0.25,0.46,0.45,0.94);
+
+  &:hover {
+    color: #fff;
+  }
+}
