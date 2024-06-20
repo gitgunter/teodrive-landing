@@ -1,6 +1,6 @@
 import Wrap from '@/components/common/Wrap/Wrap'
 
-import teodriveBrandLogo from '@assets/images/teodriveBrandLogo.svg'
+import teodriveBrandLogo from '@assets/images/teodriveBrandLogo-black.svg'
 import teodriveAppLogo from '@assets/images/teodriveIcon.svg'
 import appleLogo from '@assets/images/Apple_logo.svg'
 import androidLogo from '@assets/images/Android_Robot.svg'
