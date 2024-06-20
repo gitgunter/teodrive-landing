@@ -1,0 +1,115 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: #fff;
+  padding: 150px 0;
+
+  .footerContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 6rem;
+    width: 1400px;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-direction: column;
+
+    .navTitle {
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .navList {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.5rem;
+
+      .navListItem {
+        cursor: pointer;
+        color: #737373;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.75rem;
+        transition: color 200ms ease-out, text-decoration 200ms ease-out;
+
+        &:hover {
+          color: #fff;
+          text-decoration: underline var(--teodriveColor);
+        }
+      }
+    }
+  }
+
+  .footerLegend {
+    display: flex;
+    flex-direction: column;
+    color: #737373;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: -0.016rem;
+    padding-top: 1.5rem;
+  }
+
+  .footerBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    width: 1400px;
+
+    .copyright {
+      color: #737373;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1.25rem;
+    }
+  }
+
+  .teodriveAppLogo {
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+  }
+
+  .upcomingAppMessage {
+    display: flex;
+    align-items: center;
+    column-gap: 1.25rem;
+    background-color: #161616;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    border-radius: 1.75rem;
+    padding: 0.75rem;
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 2rem;
+      min-width: 180px;
+    }
+
+    .appOS {
+      color: #737373;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1.25rem;
+    }
+
+    .caption {
+      color: #8C8C8C;
+      font-size: 0.875rem;
+      font-weight: 500;
+      line-height: 1.25rem;
+    }
+
+    .brandLogo {
+      opacity: .4;
+      object-fit: contain;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

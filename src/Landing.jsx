@@ -6,6 +6,7 @@ import useLocomotiveScroll from '@/hooks/useLocomotiveScroll'
 import SectionHeader from '@components/landing/SectionHeader/SectionHeader'
 import DashboardMockup from '@components/landing/DashboardMockup/DashboardMockup'
 import Pricing from '@components/landing/Pricing/Pricing'
+import Footer from '@components/landing/Footer/Footer'
 
 import css from './Landing.module.css'
 
@@ -64,6 +65,7 @@ function Landing () {
           description='Todo lo que necesitas saber.'
         />
       </SectionLayout>
+      <Footer />
     </main>
   )
 }
