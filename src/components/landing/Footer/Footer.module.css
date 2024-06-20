@@ -39,7 +39,7 @@
   transition: color 200ms ease-out, text-decoration 200ms ease-out, -webkit-text-decoration 200ms ease-out;
 }
 .Footer .footerNav .navList .navListItem:hover {
-  color: #fff;
+  color: #000;
   -webkit-text-decoration: underline var(--teodriveColor);
           text-decoration: underline var(--teodriveColor);
 }

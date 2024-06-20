@@ -38,7 +38,7 @@
         transition: color 200ms ease-out, text-decoration 200ms ease-out;
 
         &:hover {
-          color: #fff;
+          color: #000;
           text-decoration: underline var(--teodriveColor);
         }
       }
