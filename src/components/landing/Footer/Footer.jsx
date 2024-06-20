@@ -47,7 +47,7 @@ const Footer = () => {
                 alignItems='flex-center'
                 columnGap='0.375rem'
               >
-                <p className={css.caption}>Proximamente en</p>
+                <p className={css.caption}>Próximamente en</p>
                 <img src={appleLogo} className={css.brandLogo} />
                 <img src={androidLogo} className={css.brandLogo} />
               </Wrap>
