@@ -6,6 +6,7 @@ import appleLogo from '@assets/images/Apple_logo.svg'
 import androidLogo from '@assets/images/Android_Robot.svg'
 
 import css from './Footer.module.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -30,8 +31,8 @@ const Footer = () => {
         <div className={css.footerNav}>
           <span className={css.navTitle}>Legal</span>
           <ul className={css.navList}>
-            <li className={css.navListItem}>Términos de Servicio</li>
-            <li className={css.navListItem}>Política de privacidad</li>
+            <Link to='/legal/terminos-de-servicio' className={css.navListItem}>Términos de Servicio</Link>
+            <Link to='/legal/politica-de-privacidad' className={css.navListItem}>Política de privacidad</Link>
           </ul>
         </div>
         <div>
