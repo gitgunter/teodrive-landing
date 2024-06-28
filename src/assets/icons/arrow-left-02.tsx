@@ -1,14 +1,13 @@
-/**
- * SVG Icon component.
- *
- * @param {React.SVGProps<SVGSVGElement>} props React SVG Props.
- */
-const ArrowLeft02 = (props) => {
+interface ArrowLeft02IconProps extends React.SVGProps<SVGSVGElement> {
+  size?: number;
+}
+
+const ArrowLeft02 = ({ size = 24, ...props }: ArrowLeft02IconProps) => {
   return (
     <svg
       {...props}
-      width={props.size || 24}
-      height={props.size || 24}
+      width={size}
+      height={size}
       viewBox='0 0 24 24'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -21,6 +20,7 @@ const ArrowLeft02 = (props) => {
         strokeLinejoin='round'
       />
     </svg>
-  );
-};
-export default ArrowLeft02;
+  )
+}
+
+export default ArrowLeft02

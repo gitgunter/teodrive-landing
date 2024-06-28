@@ -1,0 +1,80 @@
+.Privacy {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+}
+
+.legalTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  letter-spacing: -0.063rem;
+  color: #000;
+}
+
+.legalContent {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  row-gap: 3rem;
+  padding: 8rem 10rem 8rem 10rem;
+  width: 1150px;
+  height: 100%;
+
+  .legalHeader {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    color: #8b8b8b;
+
+    .legalLastUpdated {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      padding-top: 0.75rem;
+    }
+
+    .backBtn {
+      cursor: pointer;
+      user-select: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      column-gap: 0.5rem;
+      background-color: transparent;
+      padding: 0;
+      color: #8b8b8b;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1.25rem;
+      white-space: nowrap;
+      width: fit-content;
+      height: fit-content;
+      transition: column-gap 200ms ease-out, color 200ms ease-out;
+
+      &:hover {
+        color: #000;
+        column-gap: 0.625rem;
+      }
+    }
+  }
+}
+
+.InfoSection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.625rem;
+
+  .title {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .content {
+    color: #1a1a1a;
+    font-size: 1rem;
+  }
+}

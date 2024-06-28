@@ -9,9 +9,12 @@ import Pricing from '@components/landing/Pricing/Pricing'
 import Footer from '@components/landing/Footer/Footer'
 
 import css from './Landing.module.css'
+import useScrollReset from './hooks/useScrollReset'
 
 function Landing () {
   const scrollRef = useLocomotiveScroll()
+
+  useScrollReset()
 
   return (
     <main className={css.Landing} ref={scrollRef}>
