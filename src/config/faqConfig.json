@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "¿Es este el examen oficial de COSEVI?",
+    "content": "Aunque los exámenes ofrecidos en la plataforma no son los oficiales de COSEVI, la plataforma ofrece una excelente manera de practicar y prepararse para la prueba real con preguntas y formato similares. Es una herramienta valiosa e imprescindible para aquellos que desean prepararse adecuadamente."
+  },
+  {
+    "id": 2,
+    "question": "¿Está teodrive afiliado a COSEVI?",
+    "content": "Nuestra plataforma opera de manera independiente tanto de COVISE como de cualquier otra organización gubernamental costarricense. Nuestra plataforma tiene un enfoque educativo y está diseñada para ayudarte en la preparación de tu examen teórico de manejo."
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo puedo medir mi progreso utilizando Teodrive?",
+    "content": "Teodrive te permite medir tu progreso a través de funciones que registran tus resultados en los exámenes y te muestran tu mejora a lo largo del tiempo. Esto te ayudará a tener una visión clara de tus fortalezas y áreas de mejora."
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la ventaja de utilizar Teodrive en comparación con otros métodos de estudio?",
+    "content": "Teodrive ofrece un servicio de estudio completo y personalizado, con una amplia base de datos de preguntas actualizadas y la posibilidad de crear exámenes adaptados a tus necesidades. Además, su interfaz moderna y la flexibilidad de estudiar en cualquier momento y lugar lo hacen destacar."
+  },
+  {
+    "id": 5,
+    "question": "¿La aplicación es fácil de usar para personas sin experiencia técnica?",
+    "content": "Sí, Teodrive ha sido diseñado con una interfaz intuitiva y fácil de usar. La navegación por la aplicación es sencilla y sin complicaciones, lo que la hace accesible para usuarios de todos los niveles de experiencia técnica."
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo puedo acceder a Teodrive?",
+    "content": "Puedes acceder a Teodrive a través de su aplicación web desde cualquier dispositivo con conexión a Internet."
+  },
+  {
+    "id": 8,
+    "question": "¿Hay alguna garantía de éxito utilizando Teodrive?",
+    "content": "Si bien Teodrive te brinda las herramientas y recursos necesarios para prepararte para las pruebas teóricas de manejo, el éxito final depende de tu dedicación, práctica y cumplimiento de los requisitos establecidos por las autoridades correspondientes."
+  }
+]

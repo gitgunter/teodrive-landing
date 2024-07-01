@@ -10,6 +10,7 @@ import Footer from '@components/landing/Footer/Footer'
 
 import css from './Landing.module.css'
 import useScrollReset from './hooks/useScrollReset'
+import FAQ from '@components/landing/FAQ/FAQ'
 
 function Landing () {
   const scrollRef = useLocomotiveScroll()
@@ -67,6 +68,7 @@ function Landing () {
           title='Preguntas frecuentes'
           description='Todo lo que necesitas saber.'
         />
+        <FAQ />
       </SectionLayout>
       <Footer />
     </main>
