@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import TeodriveButton from '@/components/common/TeodriveButton/TeodriveButton'
 import Wrap from '@/components/common/Wrap/Wrap'
 
