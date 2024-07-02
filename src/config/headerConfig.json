@@ -1,18 +1,17 @@
 [
   {
     "title": "Funciones",
-    "link": "/home"
+    "offset": 800
   },
   {
     "title": "Precios",
-    "link": "/about"
+    "offset": 4000
   },
   {
     "title": "Sobre nosotros",
-    "link": "/contact"
+    "offset": 5050
   },
   {
-    "title": "Soporte",
-    "link": "/about"
+    "title": "Soporte"
   }
 ]

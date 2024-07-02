@@ -26,7 +26,8 @@ const Header = () => {
         </Wrap>
         <Wrap columnGap='1.5rem' alignItems='center'>
           {navbarConfig.map((item, index) => (
-            <NavItem key={index} label={item.title} url={item.link} />
+            // <NavItem key={index} label={item.title} url={item.link} />
+            <ScrollTo key={index} label={item.title} offset={item.offset} />
           ))}
         </Wrap>
         <Wrap columnGap='0.5rem'>
@@ -43,6 +44,21 @@ const Header = () => {
 }
 export default Header
 
-export const NavItem = ({ label, url }) => {
-  return <Link to={url} className={css.NavItem}>{label}</Link>
+// export const NavItem = ({ label, url }) => {
+//   return <Link to={url} className={css.NavItem}>{label}</Link>
+// }
+
+const ScrollTo = ({ offset, label }) => {
+  const handleClick = () => {
+    window.scrollTo({
+      top: offset,
+      behavior: 'smooth'
+    })
+  }
+
+  return (
+    <div className={css.NavItem} onClick={handleClick}>
+      {label}
+    </div>
+  )
 }

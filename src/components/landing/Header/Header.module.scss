@@ -41,6 +41,8 @@
 }
 
 .NavItem {
+  user-select: none;
+  cursor: pointer;
   display: flex;
   align-items: center;
   color: #d6d6d6;
