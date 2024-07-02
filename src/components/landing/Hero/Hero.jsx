@@ -9,6 +9,10 @@ const Hero = () => {
   const hero = useRef(null)
   const isInView = useInView(hero, { once: true })
 
+  const redirectToRegister = () => {
+    window.location.href = 'https://app.teodrive.com/register'
+  }
+
   return (
     <div ref={hero} className={css.Hero}>
       <Wrap className={css.heroHeadingWrapper} display='block'>
@@ -101,7 +105,7 @@ const Hero = () => {
           }
         >
           <Wrap flexDirection='column' rowGap='1rem' width='fit-content'>
-            <TeodriveButton style={{ width: 'fit-content' }}>
+            <TeodriveButton style={{ width: 'fit-content' }} onClick={redirectToRegister}>
               Empezar ahora
             </TeodriveButton>
             <span className={css.teodriveVersion}>Beta v1.0</span>

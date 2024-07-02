@@ -9,6 +9,14 @@ import navbarConfig from '@config/headerConfig.json'
 import css from './Header.module.css'
 
 const Header = () => {
+  const redirectToLogin = () => {
+    window.location.href = 'https://app.teodrive.com/login'
+  }
+
+  const redirectToRegister = () => {
+    window.location.href = 'https://app.teodrive.com/register'
+  }
+
   return (
     <header className={css.Header}>
       <nav className={css.navbar}>
@@ -22,10 +30,10 @@ const Header = () => {
           ))}
         </Wrap>
         <Wrap columnGap='0.5rem'>
-          <TeodriveButton variant='secondary' size='sm'>
+          <TeodriveButton variant='secondary' size='sm' onClick={redirectToLogin}>
             Login
           </TeodriveButton>
-          <TeodriveButton variant='primary' size='sm'>
+          <TeodriveButton variant='primary' size='sm' onClick={redirectToRegister}>
             Registro
           </TeodriveButton>
         </Wrap>

@@ -1,11 +1,10 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useState } from 'react'
 
+import { ArrowDown01 } from '@/assets/icons'
 import faqConfig from '@config/faqConfig.json'
 
 import css from './FAQ.module.css'
-import Wrap from '@/components/common/Wrap/Wrap'
-import { ArrowDown01 } from '@/assets/icons'
 
 const FAQ = () => {
   const [activeQuestion, setActiveQuestion] = useState(null)
@@ -31,14 +30,18 @@ const FAQ = () => {
 export default FAQ
 
 const Question = ({ active, question, content, onClick }) => {
+  const isActive = active && css.active
+
   return (
     <div onClick={onClick} className={css.Question}>
       <div className={css.questionHeader}>
         <h3 className={css.questionTitle}>{question}</h3>
-        <ArrowDown01 className={`${css.dropdownArrow} ${active && css.active}`} />
+        <ArrowDown01
+          className={`${css.dropdownArrow} ${isActive}`}
+        />
       </div>
-      <div className={`${css.questionContentWrapper} ${active && css.active}`}>
-        <div>{content}</div>
+      <div className={`${css.questionContentWrapper} ${isActive}`}>
+        <p className={isActive}>{content}</p>
       </div>
     </div>
   )

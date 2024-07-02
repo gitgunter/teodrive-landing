@@ -5,6 +5,9 @@
 }
 
 .heroHeadingWrapper {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   position: relative;
   font-size: 5rem;
   font-weight: 600;

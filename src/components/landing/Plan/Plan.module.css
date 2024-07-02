@@ -4,7 +4,7 @@
   flex: 1 0 0px;
   flex-direction: column;
   row-gap: 1.5rem;
-  background-color: #161616;
+  background-color: #141414;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
   padding: 1.5rem;
@@ -88,7 +88,7 @@
   line-height: 1.25rem;
   white-space: nowrap;
   background-color: transparent;
-  box-shadow: inset 0 0 0 1px #424242;
+  box-shadow: inset 0 0 0 1px #2c2c2c;
   color: #d8d8d8;
   transition: background-color 100ms ease-out, color 100ms ease-out;
   border-radius: 0.625rem;
