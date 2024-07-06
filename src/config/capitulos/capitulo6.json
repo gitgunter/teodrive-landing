@@ -1,0 +1,337 @@
+[
+  {
+    "type": "h1",
+    "content": "Normas de Circulación"
+  },
+  {
+    "type": "h3",
+    "content": "Circulación Peatonal"
+  },
+  {
+    "type": "p",
+    "content": "El peatón es el usuario natural y primero de la vía pública. Para una circulación segura, debe de ajustarse a una serie de reglas y restricciones:"
+  },
+  {
+    "type": "blockquote",
+    "content": "No debe sumir que ya fue visto. Debe cerciorarse que ha sido visto y que el vehículo se va a detener. El conductor de autobús no lo ve a 3 mts del lado derecho del bus ni a 2 mts del lado izquierdo del bus."
+  },
+  {
+    "type": "h3",
+    "content": "Zona Urbana"
+  },
+  {
+    "type": "ul",
+    "content": [
+      {
+        "type": "p",
+        "content": "Caminar por las aceras."
+      },
+      {
+        "type": "p",
+        "content": "Cruzar por las esquinas usando las zonas de paso y las zonas de seguridad."
+      },
+      {
+        "type": "p",
+        "content": "Respetar la señalización y Seguir las indicaciones de los Oficiales de Tránsito."
+      },
+      {
+        "type": "p",
+        "content": "Prohibido transitar por vías de ferrocarril o hacer actos de malabarismo, circenses, mendicidad o actividades de ventas o lucrativas."
+      }
+    ]
+  },
+  {
+    "type": "h3",
+    "content": "Zona Rural"
+  },
+  {
+    "type": "ul",
+    "content": [
+      {
+        "type": "p",
+        "content": "Circular en sentido opuesto a los vehículos cuando no hay acera (por la izquierda)."
+      },
+      {
+        "type": "p",
+        "content": "Caminar lo más alejado posible de la calzada (cuando no hay acera)."
+      },
+      {
+        "type": "p",
+        "content": "Con lluvia o neblina, use ropa de colores llamativos, o elementos adicionales con esos colores."
+      },
+      {
+        "type": "p",
+        "content": "Si es de noche, lleve una linterna o accesorios reflectivos."
+      }
+    ]
+  },
+  {
+    "type": "h3",
+    "content": "En General"
+  },
+  {
+    "type": "ul",
+    "content": [
+      {
+        "type": "p",
+        "content": "Al cruzar, mire primero a la izquierda, y cruce solamente cuando está seguro."
+      },
+      {
+        "type": "p",
+        "content": "Si algo le obstruye la visión, colóquese de modo que pueda ver claramente el tránsito que viene."
+      },
+      {
+        "type": "p",
+        "content": "No debe circular bicicletas por autopistas."
+      },
+      {
+        "type": "p",
+        "content": "Respete siempre el señalamiento vial."
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "content": "Circulación Vehicular"
+  },
+  {
+    "type": "h3",
+    "content": "Intersecciones"
+  },
+  {
+    "type": "ul",
+    "content": [
+      {
+        "type": "p",
+        "content": "Pensar anticipadamente y ubicarme en el carril correcto."
+      },
+      {
+        "type": "p",
+        "content": "Reducir la velocidad."
+      },
+      {
+        "type": "p",
+        "content": "Nunca Detenerme en una intersección NI Adelantar"
+      },
+      {
+        "type": "p",
+        "content": "NO obstruir la intersección aunque la señalización me permita pasar."
+      },
+      {
+        "type": "p",
+        "content": "Sea Paciente. No abuse de la bocina"
+      }
+    ]
+  },
+  {
+    "type": "h3",
+    "content": "Prioridades de Paso"
+  },
+  {
+    "type": "ul",
+    "content": [
+      {
+        "type": "p",
+        "content": "Vehículos sobre rieles."
+      },
+      {
+        "type": "p",
+        "content": "Autoridades Donde el Policía de tránsito esté dando indicaciones."
+      },
+      {
+        "type": "p",
+        "content": "Vehículos de Emergencia."
+      },
+      {
+        "type": "p",
+        "content": "Semáforo. Al no haber Oficial de Tránsito"
+      },
+      {
+        "type": "p",
+        "content": "ALTO y CEDA. CEDA tiene prioridad 1 sobre el ALTO"
+      },
+      {
+        "type": "p",
+        "content": "Vías Principales. Por cantidad de vehículos que circulan y/o por cantidad de carriles."
+      },
+      {
+        "type": "p",
+        "content": "Avenidas y Calles. Avenidas tienen prioridad 1 sobre las calles. Avenidas de E a O y calles de N a S"
+      },
+      {
+        "type": "p",
+        "content": "“Ley de la Mano Derecha”. Conductor con vehículo saliendo por su derecha, debe cederle el paso."
+      },
+      {
+        "type": "ul",
+        "content": [
+          {
+            "type": "p",
+            "content": "Cortesía y Comunicación. En ausencia de las anteriores. Existen 3 tipos de Giros:"
+          },
+          {
+            "type": "ol",
+            "content": [
+              {
+                "type": "p",
+                "content": "Giro a la Derecha. Prioridad 1."
+              },
+              {
+                "type": "p",
+                "content": "Movimiento Directo. Prioridad 2."
+              },
+              {
+                "type": "p",
+                "content": "Giro a la Izquierda. Prioridad 3."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "h3",
+    "content": "Adelantamiento"
+  },
+  {
+    "type": "p",
+    "content": "Pasos para adelantar:"
+  },
+  {
+    "type": "ul",
+    "content": [
+      {
+        "type": "ul",
+        "content": [
+          {
+            "type": "p",
+            "content": "Verificar que no exista prohibición. NUNCA adelantar en:"
+          },
+          {
+            "type": "ol",
+            "content": [
+              {
+                "type": "p",
+                "content": "Puentes."
+              },
+              {
+                "type": "p",
+                "content": "Cimas."
+              },
+              {
+                "type": "p",
+                "content": "Curvas."
+              },
+              {
+                "type": "p",
+                "content": "Intersecciones."
+              },
+              {
+                "type": "p",
+                "content": "Lugares Peligrosos."
+              },
+              {
+                "type": "p",
+                "content": "Línea de Barrera."
+              },
+              {
+                "type": "p",
+                "content": "Línea de Centro discontinua."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "content": "Ver que no circule vehículos en sentido contrario."
+      },
+      {
+        "type": "p",
+        "content": "Ver que delante del vehículo a rebasar no haya obstáculos."
+      },
+      {
+        "type": "p",
+        "content": "Conservar la distancia con el vehículo del frente."
+      },
+      {
+        "type": "p",
+        "content": "Ver por retrovisor izquierdo que no venga vehículos adelantando también. Podría colisionar por la izquierda."
+      },
+      {
+        "type": "p",
+        "content": "Revise el ángulo muerto (gire la cabeza)."
+      },
+      {
+        "type": "p",
+        "content": "Ver por espejo retrovisor e indicar con direccional izquierda al vehículo de atrás que voy a rebasar."
+      },
+      {
+        "type": "p",
+        "content": "Indicar al vehículo de adelante con cambio de luces (de noche) o con toques de bocina (de día)"
+      },
+      {
+        "type": "p",
+        "content": "Si el conductor es cooperador (reduce su velocidad y se ubica a la derecha) puedo adelantar. Pero si es egoísta (aumenta velocidad y zigzaguea) no debo adelantar."
+      },
+      {
+        "type": "p",
+        "content": "Poner marcha de velocidad adecuada para poder rebasar con potencia suficiente."
+      },
+      {
+        "type": "p",
+        "content": "Avisar con direccional derecha que voy a ponerme delante del vehículo rebasado y ubicarse en el carril otra vez."
+      },
+      {
+        "type": "p",
+        "content": "Al adelantar vehículos de carga pesada, debemos de esperar que él nos indique con direccional izquierda cuando podemos realizar la maniobra y se debe de ingresar dejando suficiente espacio delante del mismo, pues su distancia de frenado es mejor por el peso."
+      },
+      {
+        "type": "p",
+        "content": "Luego conserve su velocidad constante y correcta."
+      },
+      {
+        "type": "p",
+        "content": "Motos y bicimotos tiene prohibido adelantar en filas de vehículos a más de 25 Km/h."
+      },
+      {
+        "type": "p",
+        "content": "Sea cooperador si es a Ud. a quien adelantan. No pasa nada por ser rebasado. La vía no es para competir."
+      }
+    ]
+  },
+  {
+    "type": "h3",
+    "content": "Accidentes"
+  },
+  {
+    "type": "glossary",
+    "term": "La accidentología Vial",
+    "definition": "Estudia las causas y efectos de los accidentes."
+  },
+  {
+    "type": "p",
+    "content": "Existen 3 tipos de accidentes:"
+  },
+  {
+    "type": "ol",
+    "content": [
+      {
+        "type": "glossary",
+        "term": "Colisión",
+        "definition": "Estudia las causas y efectos de los accidentes."
+      },
+      {
+        "type": "glossary",
+        "term": "Colisión Frontal",
+        "definition": "Estudia las causas y efectos de los accidentes."
+      },
+      {
+        "type": "glossary",
+        "term": "Colisión Trasera",
+        "definition": "Estudia las causas y efectos de los accidentes."
+      }
+    ]
+  }
+]

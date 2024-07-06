@@ -4,6 +4,7 @@ import Landing from '@/Landing'
 import Legal from '@pages/Legal/Legal'
 import TermsOfService from '@/pages/TermsOfService/TermsOfService'
 import Privacy from '@/pages/Privacy/Privacy'
+import Dev from '@/pages/Dev/Dev'
 
 const routes = [
   {
@@ -13,6 +14,10 @@ const routes = [
   {
     path: '/legal',
     element: <Legal />
+  },
+  {
+    path: '/dev',
+    element: <Dev />
   },
   { path: '/legal/terminos-de-servicio', element: <TermsOfService /> },
   {

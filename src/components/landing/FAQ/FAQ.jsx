@@ -30,18 +30,16 @@ const FAQ = () => {
 export default FAQ
 
 const Question = ({ active, question, content, onClick }) => {
-  const isActive = active && css.active
-
   return (
     <div onClick={onClick} className={css.Question}>
       <div className={css.questionHeader}>
         <h3 className={css.questionTitle}>{question}</h3>
         <ArrowDown01
-          className={`${css.dropdownArrow} ${isActive}`}
+          className={`${css.dropdownArrow} ${active ? css.active : ''}`}
         />
       </div>
-      <div className={`${css.questionContentWrapper} ${isActive}`}>
-        <p className={isActive}>{content}</p>
+      <div className={`${css.questionContentWrapper} ${active ? css.active : ''}`}>
+        <p className={active ? css.active : ''}>{content}</p>
       </div>
     </div>
   )

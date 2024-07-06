@@ -6,6 +6,7 @@ import teodriveBrandName from '@assets/images/teodrive.svg'
 import navbarConfig from '@config/headerConfig.json'
 
 import css from './Header.module.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const redirectToLogin = () => {
@@ -28,6 +29,7 @@ const Header = () => {
             // <NavItem key={index} label={item.title} url={item.link} />
             <ScrollTo key={index} label={item.title} offset={item.offset} />
           ))}
+          <NavItem label='Soporte' url='https://soporte.teodrive.com/' />
         </Wrap>
         <Wrap columnGap='0.5rem'>
           <TeodriveButton variant='secondary' size='sm' onClick={redirectToLogin}>
@@ -43,9 +45,9 @@ const Header = () => {
 }
 export default Header
 
-// export const NavItem = ({ label, url }) => {
-//   return <Link to={url} className={css.NavItem}>{label}</Link>
-// }
+export const NavItem = ({ label, url }) => {
+  return <Link to={url} className={css.NavItem}>{label}</Link>
+}
 
 const ScrollTo = ({ offset, label }) => {
   const handleClick = () => {
