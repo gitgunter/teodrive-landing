@@ -4,12 +4,13 @@ import css from './DashboardMockup.module.css'
 
 interface DashboardMockupProps {
   url?: string
+  height?: string
   children?: React.ReactNode
 }
 
-const DashboardMockup: React.FC<DashboardMockupProps> = ({ url, children }) => {
+const DashboardMockup: React.FC<DashboardMockupProps> = ({ url, height, children }) => {
   return (
-    <div className={css.DashboardMockup}>
+    <div className={css.DashboardMockup} style={{ height }}>
     <div className={css.dashboardHeader}>
       <div className={css.dotWrapper}>
         <div className={css.dot} />

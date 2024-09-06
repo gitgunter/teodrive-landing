@@ -11,7 +11,8 @@ import Footer from '@components/landing/Footer/Footer'
 import css from './Landing.module.css'
 import useScrollReset from './hooks/useScrollReset'
 import FAQ from '@components/landing/FAQ/FAQ'
-import TemarioDashboardPreview from './components/landing/TemarioDashboardPreview/TemarioDashboardPreview'
+
+import temario from './assets/images/Temario_Feature.svg'
 
 function Landing () {
   const scrollRef = useLocomotiveScroll()
@@ -30,8 +31,8 @@ function Landing () {
           title='Expande tus conocimientos'
           description='Accede a un temario detallado que te guía paso a paso hacia el dominio de cada capítulo.'
         />
-        <DashboardMockup url='temario'>
-          <TemarioDashboardPreview />
+        <DashboardMockup url='temario' height='602px'>
+          <img src={temario} style={{ pointerEvents: 'none', userSelect: 'none' }} />
         </DashboardMockup>
       </SectionLayout>
       <SectionLayout>

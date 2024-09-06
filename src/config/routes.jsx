@@ -5,6 +5,7 @@ import Legal from '@pages/Legal/Legal'
 import TermsOfService from '@/pages/TermsOfService/TermsOfService'
 import Privacy from '@/pages/Privacy/Privacy'
 import Dev from '@/pages/Dev/Dev'
+import TiptapTest from '@/pages/TiptapTest/TiptapTest'
 
 const routes = [
   {
@@ -18,6 +19,10 @@ const routes = [
   {
     path: '/dev',
     element: <Dev />
+  },
+  {
+    path: '/tiptap',
+    element: <TiptapTest />
   },
   { path: '/legal/terminos-de-servicio', element: <TermsOfService /> },
   {
